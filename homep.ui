@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1056</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#a9cad9</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>184</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>probirka.png</pixmap>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Historic</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;</string>
+      </property>
+      <property name="text">
+       <string>Immuno</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>760</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #35525e;</string>
+   </property>
+   <property name="text">
+    <string>@ssooybean</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>100</y>
+     <width>591</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QStackedWidget{
+background-color:#a9cad9;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="page_0">
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QLineEdit" name="lineEdit_poss">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>161</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Semibold</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Cпециализация врача...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="poisk_pos">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Поиск</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="add_pos">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>20</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Добавить записть</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="del_pos">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>571</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Light</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white;
+QListWidget.items{
+background-color: blue;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="obnov_analiz">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>540</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Обновить</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLineEdit" name="lineEdit_prep">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Semibold</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Название препарата...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="run_prep">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Поиск</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="add_prep">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>20</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Добавить записть</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="run_prep_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>571</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Light</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_1">
+    <widget class="QLineEdit" name="lineEdit_analiz">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>191</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Semibold</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Название файла...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="run_analiz">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Поиск</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="add_analiz">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>20</y>
+       <width>131</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Добавить записть</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="run_analiz_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>20</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>571</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Yu Gothic UI Light</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>271</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>QPushButton{
+	color: white;
+	background-color: #35525e;
+}
+QPushButton:pressed{
+	background-color: #436878;
+}
+border-radius: 8px;</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>11</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="poseshenia">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semilight</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 10px;
+	background-color:#a9cad9;
+	border: 2px solid #35525e;
+	color:#35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Посещения</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="analizi">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semilight</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 10px;
+	background-color:#a9cad9;
+	border: 2px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Анализы</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="preparati">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semilight</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 10px;
+	background-color:#a9cad9;
+	border: 2px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Принимаемые препараты</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
