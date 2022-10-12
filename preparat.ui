@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>458</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#a9cad9</string>
+  </property>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>90</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#35525e;
+background-color: white;</string>
+   </property>
+   <property name="maximumDateTime">
+    <datetime>
+     <hour>23</hour>
+     <minute>59</minute>
+     <second>59</second>
+     <year>2050</year>
+     <month>12</month>
+     <day>31</day>
+    </datetime>
+   </property>
+   <property name="minimumDateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2005</year>
+     <month>1</month>
+     <day>1</day>
+    </datetime>
+   </property>
+   <property name="currentSection">
+    <enum>QDateTimeEdit::DaySection</enum>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>90</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#35525e;
+background-color: white;</string>
+   </property>
+   <property name="maximumDateTime">
+    <datetime>
+     <hour>23</hour>
+     <minute>59</minute>
+     <second>59</second>
+     <year>2050</year>
+     <month>12</month>
+     <day>31</day>
+    </datetime>
+   </property>
+   <property name="minimumDateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2005</year>
+     <month>1</month>
+     <day>1</day>
+    </datetime>
+   </property>
+   <property name="currentSection">
+    <enum>QDateTimeEdit::DaySection</enum>
+   </property>
+   <property name="calendarPopup">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#35525e;</string>
+   </property>
+   <property name="text">
+    <string>Период приема:    с</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>80</y>
+     <width>21</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#35525e;</string>
+   </property>
+   <property name="text">
+    <string>по</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#35525e;</string>
+   </property>
+   <property name="text">
+    <string>Название препарата</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#35525e;
+background-color: white;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semibold</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#35525e;</string>
+   </property>
+   <property name="text">
+    <string>Дополнительно:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semilight</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="placeholderText">
+    <string>*Не обязательно*</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_pos">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>400</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	border-radius: 5px;
+	background-color: white;
+	border: 1px solid #35525e;
+	color: #35525e;
+}
+
+QPushButton:hover {
+    background-color: #35525e;
+    color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Добавить записть</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
